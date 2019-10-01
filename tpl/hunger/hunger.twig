@@ -1,0 +1,45 @@
+<div class="row" id="header-row">
+    <h1>Hunger | <a href="http://tum.sexy" class="logo">TUM.<strong>sexy</strong></a></h1>
+</div>
+
+
+<p>This is the 'Speiseplan' of the current week in the FMI Bistro of the Informatik Fakultät at TUM, the Mensa
+    Garching and other eating occasions at the campus Garching.</p>
+
+<div class="row" style="margin-top:10%">
+    <div class="one-half column">
+        {% include 'hunger/menu.twig' with {
+            'title': 'FMI Bistro',
+            'week': fmiBistroWeek,
+            'fallback_url': 'https://www.wilhelm-gastronomie.de/tum-garching',
+            'fixed_dishes': {
+                2: { 'name': 'Leberkäs with fried egg and potato salad', 'price': 4.2 },
+                3: {'name': 'Currywurst with fries', 'price': 3.9 }
+            }
+        } only %}
+    </div>
+
+    <div class="one-half column">
+        {% include 'hunger/menu.twig' with {'title': 'Mensa Garching', 'week': mensaWeek, 'fallback_url': 'https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_422_-de.html#heute'} only %}
+    </div>
+</div>
+<div class="row" style="margin-top:10%">
+    <div class="one-half column">
+        {% include 'hunger/menu.twig' with {'title': 'IPP Bistro', 'week': ippBistroWeek, 'fallback_url': 'https://konradhof-catering.de/ipp/'} only %}
+    </div>
+
+    <div class="one-half column">
+        {% include 'hunger/menu.twig' with {'title': 'StuCafé Mechanical Engineering', 'week': stucafeMaschbauWeek, 'fallback_url': 'https://www.studentenwerk-muenchen.de/mensa/speiseplan/speiseplan_527_-de.html#heute'} only %}
+    </div>
+</div>
+<div class="row" style="margin-top:10%">
+    <div class="one-half column">
+        {% include 'hunger/pita_booth.twig' %}
+    </div>
+
+    <div class="one-half column">
+        {% include 'hunger/mi_geniessbar.twig' %}
+    </div>
+</div>
+
+<script async defer src="/js/hunger.js"></script>

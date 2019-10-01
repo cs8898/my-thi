@@ -1,0 +1,15 @@
+{
+  "name": "cs8898/my-thi.ml",
+  "description": "A website providing links, redirects and tools related to the Technische Hochschule Ingolstadt 💃📚",
+  "homepage": "https://my-thi.ml",
+  "scripts": {
+    "test": "phpunit"
+  },
+  "require": {
+    "twig/twig": "^1.33",
+    "stripe/stripe-php": "^5.9"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~8.2"
+  }
+}

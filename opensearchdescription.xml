@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+   <ShortName>my-thi.ml</ShortName>
+   <Description>redirect to [searchterm].my-thi.ml. More information about the specific redirects on my-thi.ml</Description>
+   <Tags>thi THI</Tags>
+   <Url type="text/html" template="http://{searchTerms}.my-thi.ml"/>
+ </OpenSearchDescription>
