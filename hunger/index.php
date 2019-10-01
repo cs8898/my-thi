@@ -38,4 +38,5 @@ foreach ($locations as $viewKey => $apiName) {
 
 //Render the template
 renderTemplate('hunger/hunger', $output);*/
-header('Location: https://my-thi.ml');
+//header('Location: https://my-thi.ml');
+die('nothing Here')

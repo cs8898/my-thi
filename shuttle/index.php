@@ -38,4 +38,4 @@ if (!empty($_GET['load']) && array_key_exists($_GET['load'], $links)) {
 }
 
 header('Location: http://www.wzw.tum.de/' . $links[$load]);*/
-header('Location: https://my-thi.ml');
+die('nothing here');
