@@ -31,8 +31,12 @@ class Route {
             'target'      => 'https://moodle.thi.de/moodle/login/index.php',
         ],
         'o'            => [
-            'description' => 'TUM Opac',
+            'description' => 'KU Opac',
             'target'      => 'https://opac.ku.de/index-hi.html',
+        ],
+        'cal'          => [
+            'description' => 'Studneplan',
+            'target'      => 'https://www3.primuss.de/stpl/index.php?FH=fhin&Language=de'
         ],
         /*'live'         => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
@@ -50,6 +54,7 @@ class Route {
 
     // Format is: <source / synonym> => <target> - the target must be present in the $routes array
     private $synonyms = [
+        'calendar' => 'cal',
         'gdp1' => 'gp1'
     ];
 
