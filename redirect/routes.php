@@ -3,7 +3,7 @@
 class Route {
     private $routes = [
         'hunger'       => [
-            'description' => 'FMI Bistro Speiseplan',
+            'description' => 'Reimanns & Mensa Speiseplan',
             'target'      => 'https://my-thi.ml/hunger',
         ],
         /*'mensabot'     => [
@@ -17,11 +17,11 @@ class Route {
         'roombot'      => [
             'description' => 'Roomfinder als Telegram Bot',
             'target'      => 'https://t.me/tumroomsbot',
-        ],*/
+        ],
         'room'         => [
             'description' => 'Lernräume',
             'target'      => 'https://www.devapp.it.tum.de/iris/app/',
-        ],
+        ],*/
         'p'            => [
             'description' => 'PRIMUSS',
             'target'      => 'https://www3.primuss.de/cgi-bin/login/index.pl?FH=fhin',
@@ -72,7 +72,12 @@ class Route {
         '5. Semester' => [],
         '6. Semester' => [],
         '7. Semester' => [],
-        'Special'     => [],
+        'Special'     => [
+            'm',
+            'p',
+            'o',
+            'cal'
+        ],
         'Electives'   => [],
     ];
 
