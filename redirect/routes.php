@@ -49,6 +49,14 @@ class Route {
         'gp1'          => [
             'description' => 'Grundlagen der Programmierung 1',
             'moodle_id'   => '76'
+        ],
+        'ra'           => [
+            'description' => 'Rechnerarchitektur',
+            'moodle_id'   => '1100'
+        ],
+        'peg'          => [
+            'description' => 'Physikalische und Elektrotechnische Grundlagen',
+            'moodle_id'   => '1059'
         ]
     ];
 
@@ -64,7 +72,9 @@ class Route {
      */
     private $sections = [
         '1. Semester' => [
-            'gp1'
+            'gp1',
+            'ra',
+            'peg'
         ],
         '2. Semester' => [],
         '3. Semester' => [],
