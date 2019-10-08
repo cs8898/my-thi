@@ -57,13 +57,18 @@ class Route {
         'peg'          => [
             'description' => 'Physikalische und Elektrotechnische Grundlagen',
             'moodle_id'   => '1059'
+        ],
+        'en'           => [
+            'description' => 'English for Informatics',
+            'moodle_id'   => '5766'
         ]
     ];
 
     // Format is: <source / synonym> => <target> - the target must be present in the $routes array
     private $synonyms = [
         'calendar' => 'cal',
-        'gdp1' => 'gp1'
+        'gdp1' => 'gp1',
+        'engl' => 'en'
     ];
 
     /**
@@ -74,7 +79,8 @@ class Route {
         '1. Semester' => [
             'gp1',
             'ra',
-            'peg'
+            'peg',
+            'en'
         ],
         '2. Semester' => [],
         '3. Semester' => [],
