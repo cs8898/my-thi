@@ -32,7 +32,7 @@ class Route {
         ],
         'o'            => [
             'description' => 'KU Opac',
-            'target'      => 'https://opac.ku.de/index-hi.html',
+            'target'      => 'https://opac-ku-de.thi.idm.oclc.org/index-hi.html',
         ],
         'cal'          => [
             'description' => 'Studneplan',
