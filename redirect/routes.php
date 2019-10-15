@@ -53,7 +53,7 @@ class Route {
         'pgp1'         => [
             'description' => 'Praktikum Grundlagen der Programmierung 1',
             'moodle_id'   => '2845'
-        ]
+        ],
         'ra'           => [
             'description' => 'Rechnerarchitektur',
             'moodle_id'   => '1100'
