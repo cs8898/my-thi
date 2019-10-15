@@ -76,7 +76,7 @@ class Route {
     private $synonyms = [
         'calendar' => 'cal',
         'gdp1'     => 'gp1',
-        'pgdp1'    => 'pgp1'
+        'pgdp1'    => 'pgp1',
         'engl'     => 'en'
     ];
 
