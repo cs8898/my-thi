@@ -50,6 +50,10 @@ class Route {
             'description' => 'Grundlagen der Programmierung 1',
             'moodle_id'   => '76'
         ],
+        'pgp1'         => [
+            'description' => 'Praktikum Grundlagen der Programmierung 1',
+            'moodle_id'   => '2845'
+        ]
         'ra'           => [
             'description' => 'Rechnerarchitektur',
             'moodle_id'   => '1100'
@@ -71,8 +75,9 @@ class Route {
     // Format is: <source / synonym> => <target> - the target must be present in the $routes array
     private $synonyms = [
         'calendar' => 'cal',
-        'gdp1' => 'gp1',
-        'engl' => 'en'
+        'gdp1'     => 'gp1',
+        'pgdp1'    => 'pgp1'
+        'engl'     => 'en'
     ];
 
     /**
@@ -82,6 +87,7 @@ class Route {
     private $sections = [
         '1. Semester' => [
             'gp1',
+            'pgp1',
             'ra',
             'peg',
             'en',
