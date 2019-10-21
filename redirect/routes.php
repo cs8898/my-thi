@@ -69,6 +69,10 @@ class Route {
         'mathe1'       => [
             'description' => 'Mathematische Grundlagen 1',
             'moodle_id'   => '3825'
+        ],
+        'matheInf1'    => [
+            'description' => 'Mathematische Grundlagen der Informatik 1',
+            'moodle_id'   => '1751'
         ]
     ];
 
@@ -91,7 +95,8 @@ class Route {
             'ra',
             'peg',
             'en',
-            'mathe1'
+            'mathe1',
+            'matheInf1'
         ],
         '2. Semester' => [],
         '3. Semester' => [],
