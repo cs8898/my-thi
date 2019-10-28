@@ -35,7 +35,7 @@ class Route {
             'target'      => 'https://opac-ku-de.thi.idm.oclc.org/index-hi.html',
         ],
         'cal'          => [
-            'description' => 'Studneplan',
+            'description' => 'Stundenplan',
             'target'      => 'https://www3.primuss.de/stpl/index.php?FH=fhin&Language=de'
         ],
         /*'live'         => [
