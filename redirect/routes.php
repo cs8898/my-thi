@@ -73,6 +73,10 @@ class Route {
         'mathe1inf'    => [
             'description' => 'Mathematische Grundlagen der Informatik 1',
             'moodle_id'   => '1751'
+        ],
+        'wapp1'        => [
+            'description' => 'WApp1',
+            'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
         ]
     ];
 
