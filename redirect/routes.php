@@ -38,6 +38,10 @@ class Route {
             'description' => 'Stundenplan',
             'target'      => 'https://www3.primuss.de/stpl/index.php?FH=fhin&Language=de'
         ],
+        'print'        => [
+            'description' => 'Drucker',
+            'targer'      => 'https://print.thi.de'
+        ],
         /*'live'         => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
             'target'      => 'https://live.rbg.tum.de',
@@ -112,7 +116,8 @@ class Route {
             'm',
             'p',
             'o',
-            'cal'
+            'cal',
+            'print'
         ],
         'Electives'   => [],
     ];
