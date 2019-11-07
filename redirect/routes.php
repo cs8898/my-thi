@@ -85,6 +85,10 @@ class Route {
         'wapp1'        => [
             'description' => 'WApp1',
             'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
+        ],
+        'rnp'          => [
+            'description' => 'Rechnernetze Praktikum',
+            'moodle_id'   => '3125'
         ]
     ];
 
@@ -112,7 +116,9 @@ class Route {
             'mathe1',
             'mathe1inf'
         ],
-        '2. Semester' => [],
+        '2. Semester' => [
+            'rnp'
+        ],
         '3. Semester' => [],
         '4. Semester' => [],
         '5. Semester' => [],
