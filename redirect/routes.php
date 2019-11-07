@@ -62,6 +62,10 @@ class Route {
             'description' => 'Rechnerarchitektur',
             'moodle_id'   => '1100'
         ],
+        'rap'          => [
+            'description' => 'Praktikum Rechnerarchitektur',
+            'moodle_id'   => '6247'
+        ],
         'peg'          => [
             'description' => 'Physikalische und Elektrotechnische Grundlagen',
             'moodle_id'   => '1059'
@@ -89,7 +93,8 @@ class Route {
         'calendar' => 'cal',
         'gdp1'     => 'gp1',
         'pgdp1'    => 'pgp1',
-        'engl'     => 'en'
+        'engl'     => 'en',
+        'pra'      => "rap"
     ];
 
     /**
@@ -101,6 +106,7 @@ class Route {
             'gp1',
             'pgp1',
             'ra',
+            'rap',
             'peg',
             'en',
             'mathe1',
