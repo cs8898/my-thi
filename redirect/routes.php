@@ -28,7 +28,7 @@ class Route {
         ],
         'm'            => [
             'description' => 'Moodle',
-            'target'      => 'https://moodle.thi.de/moodle/login/index.php',
+            'target'      => 'https://moodle.thi.de/moodle/my/',
         ],
         'o'            => [
             'description' => 'KU Opac',
