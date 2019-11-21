@@ -74,6 +74,14 @@ class Route {
             'description' => 'English for Informatics',
             'moodle_id'   => '5766'
         ],
+        'ffi_mathe1'   => [
+            'description' => 'Mathematische Grundlagen1; Analysis',
+            'moodle_id'   => '60'
+        ],
+        'ffi_mathe1ü' => [
+            'description' => 'Übungen zu Mathematische Grundlagen1; Analysis',
+            'moodle_id'   => '2445'
+        ],
         'mathe1'       => [
             'description' => 'Mathematische Grundlagen 1',
             'moodle_id'   => '3825'
@@ -98,7 +106,8 @@ class Route {
         'gdp1'     => 'gp1',
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
-        'pra'      => "rap"
+        'pra'      => 'rap',
+        'ffi_mathe1uebung' => 'ffi_mathe1ü'
     ];
 
     /**
@@ -114,7 +123,9 @@ class Route {
             'peg',
             'en',
             'mathe1',
-            'mathe1inf'
+            'mathe1inf',
+            'ffi_mathe1',
+            'ffi_mathe1ü'
         ],
         '2. Semester' => [
             'rnp'
