@@ -26,9 +26,10 @@ install:
 
 script:
   - composer test
-  - docker build -t mythi .
 
-before_deploy: echo "$DOCKER_PASSWORD" | docker login --username $DOCKER_USERNAME --password-stdin
+before_deploy:
+  - docker build -t mythi .
+  - echo "$DOCKER_PASSWORD" | docker login --username $DOCKER_USERNAME --password-stdin
 
 deploy:
   provider: script
