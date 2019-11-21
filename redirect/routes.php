@@ -107,6 +107,7 @@ class Route {
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
         'pra'      => 'rap',
+        'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
         'ffi_mathe1uebung' => 'ffi_mathe1ü'
     ];
 
