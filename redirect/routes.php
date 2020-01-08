@@ -90,13 +90,17 @@ class Route {
             'description' => 'Mathematische Grundlagen der Informatik 1',
             'moodle_id'   => '1751'
         ],
-        'wapp1'        => [
-            'description' => 'WApp1',
+        'wapp1920'        => [
+            'description' => 'WApp Gruppe WS1920',
             'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
         ],
         'rnp'          => [
             'description' => 'Rechnernetze Praktikum',
             'moodle_id'   => '3125'
+        ],
+        'cloud'        => [
+            'description' => 'OwnCloud Share',
+            'targe'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
         ]
     ];
 
