@@ -100,7 +100,7 @@ class Route {
         ],
         'cloud'        => [
             'description' => 'OwnCloud Share',
-            'targe'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
+            'target'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
         ]
     ];
 
