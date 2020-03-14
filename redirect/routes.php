@@ -2,7 +2,7 @@
 
 class Route {
     private $routes = [
-        /*'hunger'       => [
+        'hunger'       => [
             'description' => 'Reimanns & Mensa Speiseplan',
             'target'      => 'https://my-thi.ml/hunger',
         ],
