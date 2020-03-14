@@ -1,6 +1,5 @@
-sudo: true
 os:
-  -linux
+  - linux
 dist: xenial
 language: php
 
