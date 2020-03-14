@@ -116,7 +116,7 @@ class Route {
             'description' => 'Mathematische Grundlagen 2 [Lorencka]',
             'moodle_id'   => '4130'
         ],
-        'bs'           > [
+        'bs'           => [
             'description' => 'Betriebssysteme',
             'moodle_id'   => '572'
         ],
