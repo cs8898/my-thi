@@ -50,6 +50,7 @@ class Route {
             'description' => 'Unistuff (ehemals Tumstuff)',
             'target'      => 'https://unistuff.org',
         ],*/
+        // SEM 1
         'gp1'          => [
             'description' => 'Grundlagen der Programmierung 1',
             'moodle_id'   => '76'
@@ -90,17 +91,47 @@ class Route {
             'description' => 'Mathematische Grundlagen der Informatik 1',
             'moodle_id'   => '1751'
         ],
-        'wapp1920'        => [
-            'description' => 'WApp Gruppe WS1920',
-            'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
+        // SEM 2
+        'gp2'          => [
+            'description' => 'Grundlagen der Programmierung 2',
+            'moodle_id'   => '6555'
+        ],
+        'gp2p'         => [
+            'description' => 'Praktikum Grundlagen der Programmierung 2',
+            'moodle_id'   => '6556'
+        ],
+        'tmmi'         => [
+            'description' => 'Technik der Mensch inen Interaktion [Not Found]',
+            'moodle_id'   => '-1'
+        ],
+        'mgl2'         => [
+            'description' => 'Mathematische Grundlagen 2 [Lorencka]',
+            'moodle_id'   => '4130'
+        ],
+        'bs'           > [
+            'description' => 'Betriebssysteme',
+            'moodle_id'   => '572'
+        ],
+        'rn'           => [
+            'description' => 'Rechnernetze',
+            'moodle_id'   => '1754'
         ],
         'rnp'          => [
             'description' => 'Rechnernetze Praktikum',
             'moodle_id'   => '3125'
         ],
+        // SEM 4
+        'semhahndel' => [
+            'description' => 'Seminar IT Sicherheit',
+            'moodle_id'   => '6075'
+        ],
         'cloud'        => [
             'description' => 'OwnCloud Share',
             'target'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
+        ],
+        'wapp1920'        => [
+            'description' => 'WApp Gruppe WS1920',
+            'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
         ]
     ];
 
@@ -111,6 +142,7 @@ class Route {
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
         'pra'      => 'rap',
+        'ffi_mathe1u' => 'ffi_mathe1ü',
         'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
         'ffi_mathe1uebung' => 'ffi_mathe1ü'
     ];
@@ -133,10 +165,29 @@ class Route {
             'ffi_mathe1ü'
         ],
         '2. Semester' => [
+            'gp2',
+            'gp2p',
+            'tmmi',
+            'mgl2',
+            //'mgl2u',
+            'bs',
+            'rn',
             'rnp'
         ],
         '3. Semester' => [],
-        '4. Semester' => [],
+        '4. Semester' => [
+            'cg'
+            'cgp',
+            'dm',
+            'dbs',
+            'dbsp'
+            'pm',
+            'gthi',
+            'semweigel',
+            'semebert',
+            'semgold',
+            'semhahndel'
+        ],
         '5. Semester' => [],
         '6. Semester' => [],
         '7. Semester' => [],
