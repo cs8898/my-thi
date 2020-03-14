@@ -208,7 +208,7 @@ class Route {
         ],
         '3. Semester' => [],
         '4. Semester' => [
-            'cg'
+            'cg',
             //'cgp',
             'dm',
             'dbs',
