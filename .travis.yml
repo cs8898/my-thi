@@ -1,4 +1,7 @@
-sudo: required
+sudo: true
+os:
+  -linux
+dist: xenial
 language: php
 
 services:
