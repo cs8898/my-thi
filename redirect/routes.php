@@ -2,7 +2,7 @@
 
 class Route {
     private $routes = [
-        'hunger'       => [
+        /*'hunger'       => [
             'description' => 'Reimanns & Mensa Speiseplan',
             'target'      => 'https://my-thi.ml/hunger',
         ],
@@ -41,6 +41,14 @@ class Route {
         'print'        => [
             'description' => 'Drucker',
             'targer'      => 'https://print.thi.de'
+        ],
+        'cloud'        => [
+            'description' => 'OwnCloud Share',
+            'target'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
+        ],
+        'wapp1920'        => [
+            'description' => 'WApp Gruppe WS1920',
+            'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
         ],
         /*'live'         => [
             'description' => 'Livestreams und Aufzeichnungen von Vorlesungen',
@@ -121,17 +129,41 @@ class Route {
             'moodle_id'   => '3125'
         ],
         // SEM 4
+        'cg'         => [
+            'description' => 'Computergrafik',
+            'moodle_id'   => '310'
+        ],
+        'dm'         => [
+            'description' => 'Diskrete Mathematik 1',
+            'moodle_id'   => '5497'
+        ],
+        'dbs'         => [
+            'description' => 'Datenbanksysteme',
+            'moodle_id'   => '1693'
+        ],
+        'pm'         => [
+            'description' => 'Projektmanagement',
+            'moodle_id'   => '1753'
+        ],
+        'gthi'      => [
+            'description' => 'Grundlagen der Theoretischen Informatik',
+            'moodle_id'   => '312'
+        ],
+        'semweigel' => [
+            'description' => 'Seminar "Funkkommunikationssysteme"',
+            'moodle_id'   => '3482'
+        ],
+        'semebert' => [
+            'description' => 'Seminar (FFI) Ebert',
+            'moodle_id'   => '6609'
+        ],
+        'semgold' => [
+            'description' => 'Fachwissenschaftliches Seminar',
+            'moodle_id'   => '1518'
+        ],
         'semhahndel' => [
-            'description' => 'Seminar IT Sicherheit',
+            'description' => 'Seminar "IT Sicherheit"',
             'moodle_id'   => '6075'
-        ],
-        'cloud'        => [
-            'description' => 'OwnCloud Share',
-            'target'       => 'https://oc.my-thi.ml/s/WX5uB9GDlGGS7jE'
-        ],
-        'wapp1920'        => [
-            'description' => 'WApp Gruppe WS1920',
-            'target'      => 'https://chat.whatsapp.com/BW7c3CdqtHZHFdr5oL0bJ5'
         ]
     ];
 
@@ -177,10 +209,10 @@ class Route {
         '3. Semester' => [],
         '4. Semester' => [
             'cg'
-            'cgp',
+            //'cgp',
             'dm',
             'dbs',
-            'dbsp'
+            //'dbsp'
             'pm',
             'gthi',
             'semweigel',
