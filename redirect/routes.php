@@ -117,7 +117,7 @@ class Route {
             'moodle_id'   => '4130'
         ],
         'ffi_mathe2'   => [
-            'description' => 'Mathematische Grundlagen2; Analysis',
+            'description' => 'Mathematische Grundlagen2 [Rößl]; Analysis',
             'moodle_id'   => '62'
         ],
         'ffi_mathe2ü' => [
