@@ -109,7 +109,7 @@ class Route {
             'moodle_id'   => '6556'
         ],
         'tmmi'         => [
-            'description' => 'Technik der Mensch inen Interaktion [Not Found]',
+            'description' => 'Technik der Menschinen Interaktion',
             'moodle_id'   => '6662'
         ],
         'mgl2'         => [
