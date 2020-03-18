@@ -110,11 +110,19 @@ class Route {
         ],
         'tmmi'         => [
             'description' => 'Technik der Mensch inen Interaktion [Not Found]',
-            'moodle_id'   => '-1'
+            'moodle_id'   => '6662'
         ],
         'mgl2'         => [
             'description' => 'Mathematische Grundlagen 2 [Lorencka]',
             'moodle_id'   => '4130'
+        ],
+        'ffi_mathe2'   => [
+            'description' => 'Mathematische Grundlagen2; Analysis',
+            'moodle_id'   => '62'
+        ],
+        'ffi_mathe2ü' => [
+            'description' => 'Übungen zu Mathematische Grundlagen2; Analysis',
+            'moodle_id'   => '2445'
         ],
         'bs'           => [
             'description' => 'Betriebssysteme',
