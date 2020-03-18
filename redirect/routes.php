@@ -182,9 +182,10 @@ class Route {
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
         'pra'      => 'rap',
-        'ffi_mathe1u' => 'ffi_mathe1ü',
+        'ffi_mathe1u'        => 'ffi_mathe1ü',
         'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
-        'ffi_mathe1uebung' => 'ffi_mathe1ü'
+        'ffi_mgu2'        => "ffi_mgü2",
+        'xn--ffi_mg2-s2a' => "ffi_mgü2"
     ];
 
     /**
@@ -210,6 +211,8 @@ class Route {
             'tmmi',
             'mgl2',
             //'mgl2u',
+            'ffi_mg2',
+            'ffi_mgü2',
             'bs',
             'rn',
             'rnp'
