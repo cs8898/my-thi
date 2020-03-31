@@ -150,8 +150,8 @@ class Route {
             'moodle_id'   => '1693'
         ],
         'pm'         => [
-            'description' => 'Projektmanagement',
-            'moodle_id'   => '1753'
+            'description' => 'Projektmanagement (Festag)',
+            'moodle_id'   => '6090'
         ],
         'gthi'      => [
             'description' => 'Grundlagen der Theoretischen Informatik',
