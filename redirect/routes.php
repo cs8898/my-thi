@@ -109,12 +109,20 @@ class Route {
             'moodle_id'   => '6556'
         ],
         'tmmi'         => [
-            'description' => 'Technik der Mensch inen Interaktion [Not Found]',
-            'moodle_id'   => '-1'
+            'description' => 'Technik der Menschinen Interaktion',
+            'moodle_id'   => '6662'
         ],
         'mgl2'         => [
             'description' => 'Mathematische Grundlagen 2 [Lorencka]',
             'moodle_id'   => '4130'
+        ],
+        'ffi_mg2'   => [
+            'description' => 'Mathematische Grundlagen2 [Rößl]; Analysis',
+            'moodle_id'   => '62'
+        ],
+        'ffi_mgü2' => [
+            'description' => 'Übungen zu Mathematische Grundlagen2 [Rößl]; Analysis',
+            'moodle_id'   => '2445'
         ],
         'bs'           => [
             'description' => 'Betriebssysteme',
@@ -142,8 +150,8 @@ class Route {
             'moodle_id'   => '1693'
         ],
         'pm'         => [
-            'description' => 'Projektmanagement',
-            'moodle_id'   => '1753'
+            'description' => 'Projektmanagement (Festag)',
+            'moodle_id'   => '6090'
         ],
         'gthi'      => [
             'description' => 'Grundlagen der Theoretischen Informatik',
@@ -174,9 +182,10 @@ class Route {
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
         'pra'      => 'rap',
-        'ffi_mathe1u' => 'ffi_mathe1ü',
+        'ffi_mathe1u'        => 'ffi_mathe1ü',
         'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
-        'ffi_mathe1uebung' => 'ffi_mathe1ü'
+        'ffi_mgu2'        => "ffi_mgü2",
+        'xn--ffi_mg2-s2a' => "ffi_mgü2"
     ];
 
     /**
@@ -202,6 +211,11 @@ class Route {
             'tmmi',
             'mgl2',
             //'mgl2u',
+<<<<<<< HEAD
+=======
+            'ffi_mg2',
+            'ffi_mgü2',
+>>>>>>> master
             'bs',
             'rn',
             'rnp'
