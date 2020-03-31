@@ -211,11 +211,8 @@ class Route {
             'tmmi',
             'mgl2',
             //'mgl2u',
-<<<<<<< HEAD
-=======
             'ffi_mg2',
             'ffi_mgü2',
->>>>>>> master
             'bs',
             'rn',
             'rnp'
