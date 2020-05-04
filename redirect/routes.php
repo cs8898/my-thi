@@ -108,6 +108,10 @@ class Route {
             'description' => 'Praktikum Grundlagen der Programmierung 2',
             'moodle_id'   => '6556'
         ],
+        'apa'         => [
+            'description' => 'APA-Service',
+            'moodle_id'   => '1489'
+        ],
         'tmmi'         => [
             'description' => 'Technik der Menschinen Interaktion',
             'moodle_id'   => '6662'
@@ -184,6 +188,8 @@ class Route {
         'pra'      => 'rap',
         'ffi_mathe1u'        => 'ffi_mathe1ü',
         'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
+        'gdp2'     => 'gp2',
+        'gdp2p'     => 'gp2p',
         'ffi_mgu2'        => "ffi_mgü2",
         'xn--ffi_mg2-s2a' => "ffi_mgü2"
     ];
@@ -203,11 +209,12 @@ class Route {
             'mathe1',
             'mathe1inf',
             'ffi_mathe1',
-            'ffi_mathe1ü'
+            //'ffi_mathe1ü'
         ],
         '2. Semester' => [
             'gp2',
             'gp2p',
+            'apa',
             'tmmi',
             'mgl2',
             //'mgl2u',
