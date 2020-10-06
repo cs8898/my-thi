@@ -140,6 +140,19 @@ class Route {
             'description' => 'Rechnernetze Praktikum',
             'moodle_id'   => '3125'
         ],
+        // SEM 3
+        'vts'       => [
+            'description' => 'Verteilte Systeme',
+            'moodle_id'   => '1460'
+        ],
+        'web'       => [
+            'description' => 'Webtechnologien',
+            'moodle_id'   => '454'
+        ],
+        'wbs'       => [
+            'description' => 'Wissensbasierte Systeme',
+            'moodle_id'   => '6369'
+        ],
         // SEM 4
         'cg'         => [
             'description' => 'Computergrafik',
@@ -176,6 +189,11 @@ class Route {
         'semhahndel' => [
             'description' => 'Seminar "IT Sicherheit"',
             'moodle_id'   => '6075'
+        ],
+        // WPF
+        'fjp' => [
+            'description' => 'Fortgeschrittene JAVA-Programmierung ',
+            'moodle_id'   => '1881'
         ]
     ];
 
@@ -224,7 +242,11 @@ class Route {
             'rn',
             'rnp'
         ],
-        '3. Semester' => [],
+        '3. Semester' => [
+            'vts',
+            'web',
+            'wbs'
+        ],
         '4. Semester' => [
             'cg',
             //'cgp',
@@ -241,6 +263,9 @@ class Route {
         '5. Semester' => [],
         '6. Semester' => [],
         '7. Semester' => [],
+        'Wahl Fächer' => [
+            'fjp'
+        ],
         'Special'     => [
             'm',
             'p',
