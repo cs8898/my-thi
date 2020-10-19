@@ -153,6 +153,18 @@ class Route {
             'description' => 'Wissensbasierte Systeme',
             'moodle_id'   => '6369'
         ],
+        'aud'       => [
+            'description' => 'Algorithmen und Datenstrukturen',
+            'moodle_id'   => '1994'
+        ],
+        'se'       => [
+            'description' => 'Software Engineering',
+            'moodle_id'   => '6830'
+        ],
+        'sep'       => [
+            'description' => 'Software Engineering Praktikum',
+            'moodle_id'   => '6831'
+        ],
         // SEM 4
         'cg'         => [
             'description' => 'Computergrafik',
@@ -245,7 +257,10 @@ class Route {
         '3. Semester' => [
             'vts',
             'web',
-            'wbs'
+            'wbs',
+            'aud',
+            'se',
+            'sep'
         ],
         '4. Semester' => [
             'cg',
