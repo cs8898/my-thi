@@ -40,7 +40,11 @@ class Route {
         ],
         'print'        => [
             'description' => 'Drucker',
-            'targer'      => 'https://print.thi.de'
+            'target'      => 'https://print.thi.de'
+        ],
+        'ieee'        => [
+            'description' => 'IEEE Login',
+            'target'      => 'http://thi.idm.oclc.org/login?url=http://ieeexplore.ieee.org/search/advsearch.jsp'
         ],
         'cloud'        => [
             'description' => 'OwnCloud Share',
@@ -286,7 +290,8 @@ class Route {
             'p',
             'o',
             'cal',
-            'print'
+            'print',
+            'ieee'
         ],
         'Electives'   => [],
     ];
