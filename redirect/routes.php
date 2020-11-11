@@ -42,6 +42,10 @@ class Route {
             'description' => 'Drucker',
             'target'      => 'https://print.thi.de'
         ],
+        'logins'        => [
+            'description' => 'Literatur Datenbanken Logins',
+            'target'      => 'http://thi.idm.oclc.org/menu'
+        ],
         'ieee'        => [
             'description' => 'IEEE Login',
             'target'      => 'http://thi.idm.oclc.org/login?url=http://ieeexplore.ieee.org/search/advsearch.jsp'
@@ -291,7 +295,8 @@ class Route {
             'o',
             'cal',
             'print',
-            'ieee'
+            'ieee',
+            'logins'
         ],
         'Electives'   => [],
     ];
