@@ -42,8 +42,8 @@ class Route {
             'description' => 'Drucker',
             'target'      => 'https://print.thi.de'
         ],
-        'logins'        => [
-            'description' => 'Literatur Datenbanken Logins',
+        'libs'        => [
+            'description' => 'Literatur Datenbanken Index (EZproxy)',
             'target'      => 'http://thi.idm.oclc.org/menu'
         ],
         'ieee'        => [
@@ -318,7 +318,7 @@ class Route {
             'cal',
             'print',
             'ieee',
-            'logins'
+            'libs'
         ],
         'Electives'   => [],
     ];
