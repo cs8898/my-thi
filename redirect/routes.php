@@ -223,6 +223,10 @@ class Route {
         'fjp' => [
             'description' => 'Fortgeschrittene JAVA-Programmierung ',
             'moodle_id'   => '1881'
+        ],
+        'jbca' => [
+            'description' => 'Java Based Cloud Architectures',
+            'moodle_id'   => '1584'
         ]
     ];
 
@@ -300,7 +304,8 @@ class Route {
         ],
         '7. Semester' => [],
         'Wahl Fächer' => [
-            'fjp'
+            'fjp',
+            'jbca'
         ],
         'Special'     => [
             'm',
