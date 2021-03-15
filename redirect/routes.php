@@ -206,10 +206,27 @@ class Route {
             'description' => 'Seminar "IT Sicherheit"',
             'moodle_id'   => '6075'
         ],
+        // SEM 6
+        'bwl' => [
+            'description' => 'Grundlagen der Betriebswirtschaft und des Gründertums',
+            'moodle_id'   => '7159'
+        ],
+        'sc' => [
+            'description' => 'Statistik und Kombinatorik',
+            'moodle_id'   => '3826'
+        ],
+        'itsec' => [
+            'description' => 'IT Sicherheit',
+            'moodle_id'   => '2494'
+        ],
         // WPF
         'fjp' => [
             'description' => 'Fortgeschrittene JAVA-Programmierung ',
             'moodle_id'   => '1881'
+        ],
+        'jbca' => [
+            'description' => 'Java Based Cloud Architectures',
+            'moodle_id'   => '1584'
         ]
     ];
 
@@ -280,10 +297,15 @@ class Route {
             'semhahndel'
         ],
         '5. Semester' => [],
-        '6. Semester' => [],
+        '6. Semester' => [
+            'bwl',
+            'sc',
+            'itsec'
+        ],
         '7. Semester' => [],
         'Wahl Fächer' => [
-            'fjp'
+            'fjp',
+            'jbca'
         ],
         'Special'     => [
             'm',
