@@ -223,6 +223,10 @@ class Route {
             'description' => 'IT Sicherheit',
             'moodle_id'   => '2494'
         ],
+        'itr' => [
+            'description' => 'IT Recht',
+            'moodle_id'   => '5403'
+        ],
         // WPF
         'fjp' => [
             'description' => 'Fortgeschrittene JAVA-Programmierung ',
@@ -304,7 +308,8 @@ class Route {
         '6. Semester' => [
             'bwl',
             'sc',
-            'itsec'
+            'itsec',
+            'itr'
         ],
         '7. Semester' => [],
         'Wahl Fächer' => [
