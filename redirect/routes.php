@@ -187,8 +187,8 @@ class Route {
             'moodle_id'   => '1693'
         ],
         'pm'         => [
-            'description' => 'Projektmanagement (Festag)',
-            'moodle_id'   => '6090'
+            'description' => 'Projektmanagement (Eibel)',
+            'moodle_id'   => '6479'
         ],
         'gthi'      => [
             'description' => 'Grundlagen der Theoretischen Informatik',
