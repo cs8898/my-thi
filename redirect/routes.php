@@ -211,7 +211,7 @@ class Route {
             'moodle_id'   => '6075'
         ],
         // SEM 6
-        'pvl3' => [
+        'plv3' => [
             'description' => 'Informations- und Medienkompetenz (PLV3 INF/FFI)',
             'moodle_id'   => '5940'
         ],
