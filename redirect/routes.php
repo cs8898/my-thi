@@ -211,6 +211,10 @@ class Route {
             'moodle_id'   => '6075'
         ],
         // SEM 6
+        'pvl3' => [
+            'description' => 'Informations- und Medienkompetenz (PLV3 INF/FFI)'
+            'moodle_id'   => '5940'
+        ],
         'bwl' => [
             'description' => 'Grundlagen der Betriebswirtschaft und des Gründertums',
             'moodle_id'   => '7159'
@@ -306,6 +310,7 @@ class Route {
         ],
         '5. Semester' => [],
         '6. Semester' => [
+            'plv3',
             'bwl',
             'sc',
             'itsec',
