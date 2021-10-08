@@ -4,7 +4,7 @@ Detached Fork of [mammuth/TUM.sexy](https://github.com/mammuth/TUM.sexy)
 TUM.sexy
 ========
 
-[![Build Status](https://travis-ci.org/cs8898/my-thi.svg?branch=master)](https://travis-ci.org/cs8898/my-thi)
+[![Build Status](https://travis-ci.com/cs8898/my-thi.svg?branch=master)](https://travis-ci.com/cs8898/my-thi)
 
 Code of https://my-thi.ml. A website providing some links, redirects and tools regarding the Technische Hochschule Ingolstadt
 
