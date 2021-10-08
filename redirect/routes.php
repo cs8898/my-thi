@@ -231,6 +231,11 @@ class Route {
             'description' => 'IT Recht',
             'moodle_id'   => '5403'
         ],
+        // SEM 7
+        'pps' => [
+            'description' => 'Programmierparadigmen und deren Sprachen',
+            'moodle_id'   => '7742'
+        ],
         // WPF
         'fjp' => [
             'description' => 'Fortgeschrittene JAVA-Programmierung ',
@@ -321,7 +326,9 @@ class Route {
             'itsec',
             'itr'
         ],
-        '7. Semester' => [],
+        '7. Semester' => [
+            'pps'
+        ],
         'Wahl Fächer' => [
             'fjp',
             'jbca',
