@@ -324,7 +324,8 @@ class Route {
         '7. Semester' => [],
         'Wahl Fächer' => [
             'fjp',
-            'jbca'
+            'jbca',
+            'tts'
         ],
         'Special'     => [
             'm',
