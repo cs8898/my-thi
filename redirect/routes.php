@@ -239,6 +239,10 @@ class Route {
         'jbca' => [
             'description' => 'Java Based Cloud Architectures',
             'moodle_id'   => '1584'
+        ],
+        'tts' => [
+            'description' => 'Professionelle Textsatzsysteme',
+            'moodle_id'   => '1928'
         ]
     ];
 
@@ -249,12 +253,13 @@ class Route {
         'pgdp1'    => 'pgp1',
         'engl'     => 'en',
         'pra'      => 'rap',
-        'ffi_mathe1u'        => 'ffi_mathe1ü',
-        'xn--ffi_mathe1-jeb' => 'ffi_mathe1ü',
-        'gdp2'     => 'gp2',
-        'gdp2p'     => 'gp2p',
-        'ffi_mgu2'        => "ffi_mgü2",
-        'xn--ffi_mg2-s2a' => "ffi_mgü2"
+        'ffi_mathe1u'           => 'ffi_mathe1ü',
+        'xn--ffi_mathe1-jeb'    => 'ffi_mathe1ü',
+        'gdp2'                  => 'gp2',
+        'gdp2p'                 => 'gp2p',
+        'ffi_mgu2'              => "ffi_mgü2",
+        'xn--ffi_mg2-s2a'       => "ffi_mgü2",
+        'tex'                   => "tts"
     ];
 
     /**
